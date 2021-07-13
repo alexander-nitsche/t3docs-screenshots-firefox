@@ -1,0 +1,21 @@
+<html>
+<body style="background-color:grey;">
+<h1 style="height:40px;">Scrollbars</h1>
+
+<!-- DIV layer with overflow:auto works -->
+<div style="width:200px;height:260px;background-color:green;overflow:auto;float:left;">
+    Text<br>Text<br>Text<br>Text<br>Text<br>Text<br>Text<br>Text<br>Text<br>Text<br>
+    Text<br>Text<br>Text<br>Text<br>Text<br>Text<br>Text<br>Text<br>Text<br>Text<br>
+</div>
+
+<!-- IFrame fails -->
+<iframe src="./scrollbarsIframe.html" style="width:200px;height:260px;background-color:blue;float:left;"></iframe>
+
+<!-- DIV layer with overflow-y:scroll fails -->
+<div style="width:200px;height:260px;background-color:orange;overflow-y:scroll;float:left;">
+    Text<br>Text<br>Text<br>Text<br>Text<br>Text<br>Text<br>Text<br>Text<br>Text<br>
+    Text<br>Text<br>Text<br>Text<br>Text<br>Text<br>Text<br>Text<br>Text<br>Text<br>
+</div>
+
+</body>
+</html>

@@ -47,3 +47,15 @@ Installation
 
 Now you are ready to create further scripts which take screenshots with the support of the ``php-webdriver/webdriver``
 package, Selenium and Firefox.
+
+
+Uninstallation
+==============
+
+1. Remove the ddev registration by
+
+   .. code-block:: bash
+
+      ddev delete -Oy t3docs-screenshots-firefox
+
+2. Delete the project folder.
